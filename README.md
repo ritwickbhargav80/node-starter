@@ -1,32 +1,24 @@
 # PROJECT_TITLE
 
-[![LIVE](https://img.shields.io/badge/LIVE-VISIT-green?style=?style=flat-square&logo=appveyor)](<LINK-TO-DEPLOY>)
+[![DOCUMENTATION](https://img.shields.io/badge/DOCUMENTATION-IN_PROGRESS-orange?style=?style=flat-square&logo=postman)](<LINK-TO-DOCUMENTATION>) [![API LINK](https://img.shields.io/badge/APIS-IN_DEVELOPMENT-blue?style=?style=flat-square&logo=heroku)](<LINK-TO-DEPLOY>) [![LIVE](https://img.shields.io/badge/LIVE-IN_DEVELOPMENT-green?style=?style=flat-square&logo=netlify)](<LINK-TO-DEPLOY>)
 
 ---
 
-PROJECT_DESCIPTION
+## PROJECT_DESCIPTION
 
-## Features
+### Features
 
 - feature 0
 - feature 1
 - feature 2
 
-## Technologies
+### Technologies Used
 
 - Node.js + Express.js
 - MongoDB
 
 ## Setup
 
-```bash
-$ git clone https://github.com/<USERNAME>/PROJECT_TITLE
-$ cd PROJECT_TITLE
-$ touch .env
-$ cp .env.example .env
-# Set values in .env
-$ npm i
-$ npm start
-```
+![bash](public/bash.png)
 
 ### Made with ❤️️ by [NAME](<PROFILE-URL>)

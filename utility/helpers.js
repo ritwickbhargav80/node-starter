@@ -26,7 +26,7 @@ let logger = log4js.getLogger();
 logger.level = "debug";
 
 module.exports.sendError = (res, message, status) => {
-	res.status(status).json({
+	return res.status(status).json({
 		message,
 		error: true,
 		data: null
@@ -41,7 +41,7 @@ module.exports.sendSuccess = (res, data, token) => {
 			data
 		});
 	}
-	res.status(OK).json({
+	return res.status(OK).json({
 		message: "success",
 		error: false,
 		data

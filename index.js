@@ -39,6 +39,7 @@ const User = require("./models/User");
 
 //Routes
 app.use("/api/v1", require("./routes/api/v1/index"));
+
 // 404 route
 app.use("*", notFound);
 
